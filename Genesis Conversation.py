@@ -57,4 +57,11 @@ if returning_user == "yes":
         print(returning_usr_v)
     if who_ret_usr == "Hotep":
         print(returning_usr)
-print("Smell ya later dork")
+keep_talking = input("Do you wanna keep talking? ")
+if keep_talking == "no":
+    print("Aight, seeya later")
+if keep_talking == "yes":
+    print("So What now? ")
+    topics = input("do you wanna talk about your mood, your day, your goals? ")
+    if topics == "my day"
+    print("How was your day? ")
